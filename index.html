@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carta de Confidencialidade — Sra. Paula</title>
+  <style>
+    :root{
+      --bg:#f7f8fb;
+      --card:#ffffff;
+      --muted:#6b7280;
+      --accent:#0f172a;
+      --border:#e6e9ef;
+      font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color-scheme: light;
+    }
+
+    html,body{
+    height:100%;
+    margin:0;
+    background:var(--bg);
+    }
+
+    .container{
+    max-width:920px;
+    margin:40px auto;
+    padding:28px;
+    background:var(--card);
+    border:1px solid var(--border);
+    box-shadow:0 8px 24px rgba(15,23,42,0.06);
+    border-radius:10px
+    }
+
+    header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:18px
+    }
+
+    h1{
+    font-size:20px;
+    margin:0;
+    color:var(--accent)
+    }
+
+    .meta{
+    font-size:13px;
+    color:var(--muted)
+    }
+
+    section{
+    margin-top:14px;
+    line-height:1.6;
+    color:#111827
+}
+
+    .clause{
+        margin-top:12px;
+        padding:12px 14px;
+        border-left:3px solid var(--border);
+        background:#fafafa;
+        border-radius:6px
+    }
+
+    .clause b{
+        color:var(--accent)
+    }
+
+    footer{
+        margin-top:20px;
+        display:flex;
+        justify-content:space-between;
+        align-items:center
+    }
+
+    .actions{
+        display:flex;
+        gap:10px
+    }
+
+    button{
+        padding:8px 12px;
+        border-radius:8px;
+        border:1px solid var(--border);
+        background:white;
+        cursor:pointer
+    }
+
+
+    button.primary{
+        background:#0b5cff;
+        color:white;
+        border:none
+    }
+
+    .signature{
+        margin-top:16px
+    }
+
+    label{
+        display:block;
+        font-size:13px;
+        color:var(--muted);
+        margin-bottom:6px
+    }
+
+    input[
+        type=text
+        ]
+        {
+            width:100%;
+            padding:10px;
+            border-radius:8px;
+            border:1px solid var(--border);
+        }
+
+    .note
+    {font-size:12px;
+        color:var(--muted);
+        margin-top:8px
+    }
+
+    pre{
+        white-space:pre-wrap;
+        background:#f3f4f6;
+        padding:10px;
+        border-radius:6px;
+        border:1px dashed var(--border);
+        font-size:13px
+    }
+
+    @media (max-width:640px){
+        .container{
+            margin:16px;
+            padding:16px
+        }
+    }
+  </style>
+</head>
+<body>
+  <div class="container" role="document">
+    <header>
+      <div>
+        <h1>Declaração de Confidencialidade</h1>
+        <div class="meta">Destinatária: Sra. Paula — Documento técnico e formal</div>
+      </div>
+      <div class="meta">Emitente: A.R.I.S. &nbsp;•&nbsp; Data: <span id="issueDate"></span></div>
+    </header>
+
+    <section>
+      <p>Prezada Sra. Paula,</p>
+      <p>Por meio desta, a <strong>A.R.I.S.</strong> formaliza o pedido de confidencialidade relativo aos arquivos e materiais restritos que serão compartilhados em decorrência do <strong>Project Garden</strong>. Este documento estabelece, de forma técnica e vinculante, as obrigações, salvaguardas e garantias associadas ao tratamento e à proteção das informações.</p>
+
+      <div class="clause">
+        <b>Definições</b>
+        <p class="note">Para fins deste documento, "Informações Restritas" compreende qualquer dado, especificação técnica, desenho, relatório, código-fonte, documentação, cronograma, plano, modelo, amostra, ou outro material classificado como confidencial pela A.R.I.S., entregue à destinatária.</p>
+      </div>
+
+      <div class="clause">
+        <b>Obrigação de Confidencialidade</b>
+        <p>Ao receber as Informações Restritas, a Sra. Paula compromete-se a mantê-las estritamente confidenciais, a não divulgá-las a terceiros não autorizados e a utilizá-las exclusivamente para os fins previamente acordados entre as partes.</p>
+      </div>
+
+      <div class="clause">
+        <b>Proteção de Dados e Garantia durante a Transição</b>
+        <p>A P.S.O.S. assegura que todos os dados e arquivos fornecidos serão protegidos por medidas técnicas e administrativas adequadas durante toda a fase de transição. Essas medidas incluem, sem se limitar a:</p>
+        <ul>
+          <li>Controle de acesso baseado em privilégios mínimos;</li>
+          <li>Criptografia em trânsito e, quando aplicável, em repouso;</li>
+          <li>Registros de auditoria e logs de acesso;</li>
+          <li>Procedimentos de armazenamento seguro e destruição segura de cópias quando solicitado.</li>
+        </ul>
+        <p class="note"><strong>Aviso:</strong> Seus dados serão protegidos durante toda a transição conforme descrito acima e nos termos das políticas internas de segurança da A.R.I.S.</p>
+      </div>
+
+      <div class="clause">
+        <b>Exceções</b>
+        <p>Não obstante o acima, não se consideram violação de confidencialidade as divulgações exigidas por força de lei, ordem judicial ou autoridade competente, desde que, quando possível, a A.R.I.S. seja previamente notificada para que possa adotar as medidas cabíveis de proteção.</p>
+      </div>
+
+      <div class="clause">
+        <b>Prazo</b>
+        <p>As obrigações de confidencialidade perdurarão enquanto as Informações Restritas mantiverem natureza confidencial ou por prazo mínimo de 5 (cinco) anos a contar da data de recebimento, prevalecendo o que for mais longo segundo o entendimento da P.S.O.S.</p>
+      </div>
+
+      <div class="clause">
+        <b>Medidas Técnicas e Administrativas</b>
+        <p>A destinatária compromete-se a:</p>
+        <ul>
+          <li>Armazenar as Informações Restritas em ambientes protegidos;</li>
+          <li>Não replicar ou distribuir cópias sem autorização expressa;</li>
+          <li>Notificar imediatamente a A.R.I.S. em caso de acesso indevido, perda ou incidente de segurança.</li>
+        </ul>
+      </div>
+
+      <div class="clause">
+        <b>Consequências do Descumprimento</b>
+        <p>O descumprimento das obrigações aqui previstas sujeitará a parte infratora às sanções contratuais e legais cabíveis, inclusive responsabilização por perdas e danos, sem prejuízo de medidas injuntivas para cessação imediata da divulgação indevida.</p>
+      </div>
+
+      <div class="clause">
+        <b>Contato para Comunicação de Incidentes</b>
+        <p>Para comunicação de qualquer incidente ou para esclarecimentos, favor contatar: <br><strong>Segurança da Informação — P.S.O.S.</strong><br>e-mail: office.aris333@gmail.com<br>Telefone: +33 (11) 4000-0000</p>
+        <p>Caso um outro dispositivo tiver acesso a esse contato a linha será bloqueada imediatamnete!</p>
+      </div>
+
+      <div class="signature">
+        <label for="nome">Declaro ter lido, compreendido e aceitarei as obrigações descritas:</label>
+        <input type="text" id="nome" placeholder="Nome completo da Sra. Paula" aria-label="Nome completo" />
+        <div class="note">Ao assinar eletronicamente, será gerado um registro local contendo nome, identificação opcional e carimbo de data/hora para fins de registro.</div>
+        <div style="margin-top:10px;display:flex;gap:8px;">
+          <button id="ackBtn" class="primary">Assinar e Registrar</button>
+          <button id="printBtn">Imprimir / Salvar como PDF</button>
+          <button id="clearBtn">Limpar registro local</button>
+        </div>
+        <pre id="registro" aria-live="polite" style="display:none;margin-top:12px"></pre>
+      </div>
+
+    </section>
+
+    <footer>
+      <div class="meta">Documento Técnico — P.S.O.S. Juntamente com a A.R.I.S — Todos os direitos reservados</div>
+      <div class="actions">
+        <button id="downloadBtn">Baixar (.txt) Registro</button>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Inserção de data de emissão
+    (function(){
+      const d = new Date();
+      const opt = {year:'numeric',month:'long',day:'2-digit'};
+      document.getElementById('issueDate').textContent = d.toLocaleDateString('pt-BR',opt);
+    })();
+
+    // Funções de assinatura local (registro no browser) — propósito de auditoria local
+    const nomeInput = document.getElementById('nome');
+    const ackBtn = document.getElementById('ackBtn');
+    const registroEl = document.getElementById('registro');
+    const printBtn = document.getElementById('printBtn');
+    const clearBtn = document.getElementById('clearBtn');
+    const downloadBtn = document.getElementById('downloadBtn');
+
+    function gerarRegistro(nome){
+      const ts = new Date();
+      const registro = {
+        nome: nome || 'NÃO INFORMADO',
+        entidade: 'A.R.I.S.',
+        entidade2: 'P.S.O.S.',
+        documento: 'Declaração de Confidencialidade',
+        referencia: 'Project Garden',
+        timestamp_iso: ts.toISOString(),
+        timestamp_local: ts.toLocaleString('pt-BR')
+      };
+      return registro;
+    }
+
+    function salvarLocal(reg){
+      // Armazena em localStorage com chave específica
+      try{
+        const chave = 'psos_conf_registro_'+new Date().getTime();
+        localStorage.setItem(chave, JSON.stringify(reg));
+        return chave;
+      }catch(e){
+        console.warn('Falha ao gravar registro local',e);
+        return null;
+      }
+    }
+
+    ackBtn.addEventListener('click',()=>{
+      const nome = nomeInput.value.trim();
+      if(!nome){
+        alert('Por favor, insira o nome completo da Sra. Paula antes de assinar.');
+        nomeInput.focus();
+        return;
+      }
+      const reg = gerarRegistro(nome);
+      const chave = salvarLocal(reg);
+      registroEl.style.display = 'block';
+      registroEl.textContent = 'Registro armazenado localmente.\n\nChave: '+(chave||'Não disponível')+'\n\n'+JSON.stringify(reg,null,2);
+      alert('Assinatura registrada localmente. A A.R.I.S. fornecerá instruções para envio seguro se necessário.');
+    });
+
+    printBtn.addEventListener('click',()=>{
+      window.print();
+    });
+
+    clearBtn.addEventListener('click',()=>{
+      if(confirm('Deseja realmente remover TODOS os registros locais relacionados a este documento?')){
+        // remove chaves que começam com prefixo conhecido
+        try{
+          const prefix = 'psos_conf_registro_';
+          const keys = Object.keys(localStorage).filter(k=>k.startsWith(prefix));
+          keys.forEach(k=>localStorage.removeItem(k));
+          registroEl.textContent = '';
+          registroEl.style.display='none';
+          alert('Registros locais removidos.');
+        }catch(e){
+          alert('Falha ao remover registros locais.');
+        }
+      }
+    });
+
+    downloadBtn.addEventListener('click',()=>{
+      const prefix = 'aris_conf_registro_';
+      const keys = Object.keys(localStorage).filter(k=>k.startsWith(prefix));
+      if(keys.length===0){
+        alert('Não há registros locais para download.');
+        return;
+      }
+      const items = keys.map(k=>({chave:k,valor:JSON.parse(localStorage.getItem(k))}));
+      const blob = new Blob([JSON.stringify(items,null,2)],{type:'application/json'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url; a.download = 'aris_registros_confidencialidade.json';
+      document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+    });
+  </script>
+</body>
+</html>
